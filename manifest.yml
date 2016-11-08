@@ -1,0 +1,13 @@
+applications:
+- path: .
+  memory: 512M
+  instances: 1
+  domain: au-syd.mybluemix.net
+  name: CITS5503-21341958-NodeRED
+  host: CITS5503-21341958-Node-RED
+  disk_quota: 1024M
+  services:
+  - CITS5503-21341958-NodeRED-cloudantNoSQLDB
+  env:
+    NODE_RED_USERNAME: '21341958'
+    NODE_RED_PASSWORD: CITS5503
